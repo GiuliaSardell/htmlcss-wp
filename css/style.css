@@ -17,9 +17,7 @@
   width: 80%;
 }
 
-.panel{
-  height: 60px;
-}
+
 
 .logo{
   height: 60px;
@@ -59,7 +57,7 @@ nav li a:hover, nav li a:active{
 }
 
 .jumbotron{
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 30px;
   background-image: url(../img/banner.jpg);
   background-position: center;
@@ -80,7 +78,7 @@ nav li a:hover, nav li a:active{
   color: white;
   padding-left: 40px;
   padding-right: 150px;
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 .title-text{
@@ -89,16 +87,11 @@ nav li a:hover, nav li a:active{
 
 .subtitle-text{
   display: inline-block;
-  /* font-size: 12px; */
 }
 
 .content{
   color:gray;
   margin-top: 20px;
-}
-
-.title-content{
-  height: 50px;
 }
 
 
@@ -116,7 +109,7 @@ nav li a:hover, nav li a:active{
 .illustration, .sid, .middle{
   background-position: center;
   background-size: contain;
-  height: 100px;
+  height: 150px;
   border-radius: 5px;
 }
 
@@ -126,7 +119,6 @@ nav li a:hover, nav li a:active{
 
 .left{
   background-image: url(../img/img-3.jpg);
-  
 }
 
 .left, .middle, .right{
