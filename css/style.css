@@ -92,13 +92,6 @@ nav li a:hover, nav li a:active{
   /* font-size: 12px; */
 }
 
-
-
-
-
-
-
-
 .content{
   color:gray;
   margin-top: 20px;
@@ -120,7 +113,7 @@ nav li a:hover, nav li a:active{
   color:grey
 }
 
-.illustration, .sid{
+.illustration, .sid, .middle{
   background-position: center;
   background-size: contain;
   height: 100px;
@@ -136,7 +129,7 @@ nav li a:hover, nav li a:active{
   
 }
 
-.left, .middle{
+.left, .middle, .right{
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -159,7 +152,6 @@ nav li a:hover, nav li a:active{
   margin: 1% 0;
 }
 
-
 .title-side{
   font-weight: bold;
   display: block;
@@ -167,10 +159,12 @@ nav li a:hover, nav li a:active{
   margin: 10px 0;
 }
 
-
 .end-panel{
-  height: 30px;
-  background-color: purple;
-  margin: 10px 0;
+  margin: 20px;
+  color: black;
+  text-align: center;
 }
 
+.hearts{
+  color: red;
+}
