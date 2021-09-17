@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-  /* color: lightgray; */
 }
 
 .clearfix::after{
@@ -101,7 +100,8 @@ nav li a:hover, nav li a:active{
 
 
 .content{
-  background-color: cornflowerblue;
+  color:gray;
+  margin-top: 20px;
 }
 
 .title-content{
@@ -113,6 +113,11 @@ nav li a:hover, nav li a:active{
   font-weight: bold;
   font-size: 25px;
   display: block;
+  color: black;
+}
+
+.subtitle-leadership{
+  color:grey
 }
 
 .illustration, .sid{
@@ -121,7 +126,6 @@ nav li a:hover, nav li a:active{
   height: 100px;
   border-radius: 5px;
 }
-
 
 .right{
   background-image: url(../img/img-1.jpg);
@@ -137,14 +141,11 @@ nav li a:hover, nav li a:active{
   background-size: cover;
 }
 
-
-
 .middle{
   background-image: url(../img/banner-2.jpg);
 }
 
 .side, .central{
-
   float: left;
 }
 
@@ -158,8 +159,18 @@ nav li a:hover, nav li a:active{
   margin: 1% 0;
 }
 
+
+.title-side{
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
 .end-panel{
   height: 30px;
   background-color: purple;
   margin: 10px 0;
 }
+
